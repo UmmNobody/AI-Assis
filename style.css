@@ -495,4 +495,29 @@ footer p {
     .future-plan {
         margin-top: 40px;
     }
+
+    .part1-header,
+    .part2-header,
+    .part3-header,
+    .part4-header {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 457px) {
+    .navbar .logo {
+        font-size: 15px;
+    }
+
+    .navbar ul li {
+        margin: 0 2px;
+    }
+
+    .navbar ul li a {
+        font-size: 12px;
+    }
+
+    footer p {
+        font-size: 9px;
+    }
 }
